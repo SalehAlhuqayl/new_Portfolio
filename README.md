@@ -15,6 +15,3 @@ npm run dev
 npm run build
 ```
 
-## Deploy
-
-Push to main branch — GitHub Actions handles deployment automatically.

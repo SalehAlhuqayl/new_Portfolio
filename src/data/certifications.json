@@ -1,0 +1,44 @@
+{
+  "certifications": [
+    {
+      "name": "AI Programming with Python",
+      "type": "Nanodegree",
+      "issuer": "Udacity",
+      "year": "2025",
+      "description": "Python, NumPy, Pandas, PyTorch, Deep Learning",
+      "verifyUrl": "https://www.udacity.com/certificate/e/73bebc4a-2e51-11f0-b630-23d2dd864ab5"
+    },
+    {
+      "name": "PCAD™ Certified Associate Data Analyst",
+      "type": "Certification",
+      "issuer": "openEDG",
+      "year": "2025",
+      "description": "Python data preparation, ETL workflows, Pandas, NumPy",
+      "verifyUrl": "https://verify.openedg.org/?id=U3Y9.AYcx.ug9L"
+    },
+    {
+      "name": "Jr Data Scientist",
+      "type": "Certificate",
+      "issuer": "INE",
+      "year": "2024",
+      "description": "Data analysis, ML fundamentals, Python, visualization",
+      "verifyUrl": "https://certs.ine.com/9a0f5eea-7bec-4edd-8ce0-6205a8b3cd16#acc.ujoirp0s"
+    },
+    {
+      "name": "Predictive Analytics Modeler",
+      "type": "Certificate",
+      "issuer": "IBM",
+      "year": "2024",
+      "description": "Predictive modeling, ML algorithms, statistical analysis",
+      "verifyUrl": "https://www.credly.com/badges/9a474bb0-babb-4d36-ba4a-d5a6a003c835/public_url"
+    },
+    {
+      "name": "HCIA-AI",
+      "type": "Certificate",
+      "issuer": "Huawei",
+      "year": "2024",
+      "description": "AI fundamentals, machine learning, deep learning",
+      "verifyUrl": "https://drive.google.com/file/d/1PvNBiQ2dm2cO8T2RYOQ_ouB7nOk2ol6f/view?usp=drivesdk"
+    }
+  ]
+}

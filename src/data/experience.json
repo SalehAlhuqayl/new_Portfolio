@@ -1,0 +1,29 @@
+{
+  "positions": [
+    {
+      "title": "Data Scientist",
+      "company": "Mozn",
+      "period": "Nov 2024 – Present",
+      "location": "Riyadh, Saudi Arabia",
+      "highlights": [
+        "Built centralized data catalog covering 80% of Ministry of Hajj & Umrah infrastructure",
+        "Integrated 16+ data systems from diverse databases into unified platform",
+        "Automated business rules with CDEs, boosting productivity by 60%",
+        "Applied 1,500+ Critical Data Elements for data quality compliance",
+        "Improved Hajj housing records accuracy by 25%"
+      ]
+    },
+    {
+      "title": "Operations Analyst (Intern)",
+      "company": "Boeing Saudi Arabia",
+      "period": "Jul 2024 – Oct 2024",
+      "location": "Riyadh, Saudi Arabia",
+      "highlights": [
+        "Enhanced internal simulation tools for operational decision-making",
+        "Conducted comprehensive analysis of operational processes",
+        "Presented insights and recommendations to military stakeholders",
+        "Delivered 12% reduction in operational costs through data-driven solutions"
+      ]
+    }
+  ]
+}

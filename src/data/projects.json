@@ -1,0 +1,102 @@
+{
+  "featured": [
+    {
+      "title": "National Data Index Compliance",
+      "subtitle": "Ministry of Hajj & Umrah",
+      "role": "Data Scientist at Mozn",
+      "period": "2024 – Present",
+      "problem": "Ministry lacked unified data infrastructure aligned with national standards",
+      "solution": "Built centralized data catalog with automated quality monitoring",
+      "outcomes": [
+        "Improved data quality for the Ministry of Hajj and Umrah, supporting a top-tier result in SDAIA’s NDI (Nadhi’) Index.",
+        "Developed software to automate the integration of business rules with CDEs, boosting productivity by over 60%.",
+        "Integrated 16+ data systems into unified catalog",
+        "Applied 1,500+ CDEs for quality compliance",
+        "Achieved 80% infrastructure coverage"
+      ],
+      "tags": ["Python", "ETL", "Data Quality","Data Analytics","Informatica IDQ"],
+      "links": {}
+    },
+    {
+      "title": "AI Agent for Tender Scoring",
+      "subtitle": "Etimad Platform Integration",
+      "role": "Data Scientist at Mozn",
+      "period": "2025",
+      "problem": "Manual tender review was time-consuming and inconsistent",
+      "solution": "Developed LLM-powered agent to analyze and score public tenders",
+      "outcomes": [
+        "Automated relevance scoring for public tenders",
+        "Reduced manual review effort significantly",
+        "Accelerated bid decision-making process"
+      ],
+      "tags": ["LLM", "Agentic AI", "Automation","Python","API Integration"],
+      "links": {}
+    },
+    {
+      "title": "Predictive Maintenance Optimization",
+      "subtitle": "Published Research",
+      "role": "Researcher & ML Engineer",
+      "period": "2024",
+      "problem": "Unexpected equipment failures causing costly downtime",
+      "solution": "Built predictive framework using IIoT sensors and machine learning",
+      "outcomes": [
+        "Improved machine reliability and extended equipment lifespan",
+        "Reduced unexpected breakdowns via early warning system",
+        "Published in IJACSA (Vol. 15, Issue 4)"
+      ],
+      "tags": ["Machine Learning", "Research","Predictive Analytics","Industrial IoT","Python"],
+      "links": {
+        "paper": "https://thesai.org/Publications/ViewPaper?Volume=15&Issue=4&Code=IJACSA&SerialNo=64"
+      }
+    },
+    {
+      "title": "Operations Cost Optimization",
+      "subtitle": "Boeing Saudi Arabia",
+      "role": "Operations Analyst Intern",
+      "period": "Jul – Oct 2024",
+      "problem": "Operational inefficiencies impacting costs and performance",
+      "solution": "Enhanced simulation tools and conducted process analysis",
+      "outcomes": [
+        "Improved Boeing’s simulation tools for better operational modeling and decision-making.",
+        "Presented recommendations to military stakeholders.",
+        "Improved operational decision-making processes."
+      ],
+      "tags": ["Operations Research", "Analytics", "Simulation","Military","Stakeholders Communication"],
+      "links": {}
+    },
+    {
+      "title": "Investment Growth Analysis",
+      "subtitle": "TASI vs Gold Futures (1998–2023)",
+      "role": "Data Analyst",
+      "period": "2024",
+      "problem": "Lack of long-term comparative analysis for Saudi investors",
+      "solution": "Analyzed 25-year performance of TASI vs Gold investments",
+      "outcomes": [
+        "Compared SAR 1,000 investment growth over 25 years",
+        "Created visualization dashboards for insights",
+        "Provided portfolio diversification recommendations"
+      ],
+      "tags": ["Financial Analysis", "Visualization", "R programming"],
+      "links": {
+        "repo": "https://github.com/SalehAlhuqayl/investment-growth-analysis"
+      }
+    },
+    {
+      "title": "TechHub Student Club",
+      "subtitle": "Majmaah University",
+      "role": "Founding Member → Leader",
+      "period": "2021 – 2024",
+      "problem": "Students lacked engaging platform for tech skill development",
+      "solution": "Built gamified platform and organized university-wide events",
+      "outcomes": [
+        "Achieved 80% student engagement in College of Engineering",
+        "Secured Gold Award from Majmaah University",
+        "Launched techhubmu.com with points-based system"
+      ],
+      "tags": ["Leadership", "Community", "EdTech"],
+      "links": {
+        "live": "https://techhubmu.com"
+      }
+    }
+  ]
+}

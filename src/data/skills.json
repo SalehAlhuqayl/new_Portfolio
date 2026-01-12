@@ -1,0 +1,35 @@
+{
+  "categories": [
+    {
+      "name": "Languages & Tools",
+      "icon": "Code2",
+      "skills": ["Python", "C++", "R programming", "SQL", "Informatica Cloud (IDQ)", "Microsoft Excel"]
+    },
+    {
+      "name": "Libraries & Frameworks",
+      "icon": "Brain",
+      "skills": ["Pandas", "NumPy", "Polars", "Scikit-learn", "Matplotlib", "Geopandas", "PyTorch"]
+    },
+
+    {
+      "name": "Analysis & Viz",
+      "icon": "BarChart3",
+      "skills": ["Power BI", "Plotly", "Predictive Analytics"]
+    },
+    {
+      "name": "Data Capabilities",
+      "icon": "Database",
+      "skills": ["Data Engineering", "Data Quality", "Data Visualization", "Machine Learning", "Deep learning", "Web Scraping", "API Integration", "Automation", "ETL Pipelines"]
+    },
+    {
+      "name": "Soft Skills",
+      "icon": "Users",
+      "skills": ["Leadership", "Problem Solving", "Presentations", "Communication", "Project Management", "Analytical Thinking", "Strategic Thinking", "Data Storytelling", "Stakeholder Communication"]
+    },
+    {
+      "name": "AI & Automation",
+      "icon": "Sparkles",
+      "skills": ["LLMs", "AI Agents", "Prompt Engineering", "OpenAI API"]
+    }
+  ]
+}

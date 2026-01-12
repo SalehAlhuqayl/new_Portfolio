@@ -1,0 +1,35 @@
+{
+  "metrics": [
+    {
+      "value": "80%",
+      "label": "Infrastructure Coverage",
+      "description": "Built centralized data catalog for Ministry of Hajj & Umrah"
+    },
+    {
+      "value": "60%",
+      "label": "Productivity Boost",
+      "description": "Automated business rules integration with CDEs"
+    },
+    {
+      "value": "25%",
+      "label": "Data Accuracy",
+      "description": "Enhanced geographic data in Hajj housing records"
+    },
+    {
+      "value": "20%",
+      "label": "Faster Reporting",
+      "description": "Accelerated analytics during peak Hajj seasons"
+    },
+    {
+      "value": "Top 5%",
+      "label": "High NDI Placement",
+      "description": "Improved data quality to support a top result for the Ministry of Hajj and Umrah in SDAIA’s Nadhi’ (NDI) Index"
+    },
+    {
+      "value": "4.72",
+      "label": "GPA",
+      "description": "Graduated with distinction in Data Science"
+    }
+    
+  ]
+}

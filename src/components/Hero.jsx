@@ -1,11 +1,11 @@
-import { Mail, Linkedin, Github, MapPin, ExternalLink } from 'lucide-react'
+import { Mail, Linkedin, Github, MapPin } from 'lucide-react'
 import profileData from '../data/profile.json'
 
 function Hero() {
   const { name, role, location, summary, tagline, emails, links } = profileData
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20">
+    <section className="min-h-screen flex items-center justify-center px-4 pt-24 pb-20">
       <div className="max-w-4xl mx-auto text-center">
         {/* Location badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 animate-fade-in">
@@ -65,8 +65,8 @@ function Hero() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 rounded-full border-2 border-text-muted flex items-start justify-center p-2">
+        <div className="mt-16 animate-bounce">
+          <div className="w-6 h-10 rounded-full border-2 border-text-muted flex items-start justify-center p-2 mx-auto">
             <div className="w-1 h-2 bg-text-muted rounded-full animate-pulse" />
           </div>
         </div>

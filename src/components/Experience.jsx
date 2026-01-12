@@ -1,14 +1,13 @@
 import { Building2, Calendar, MapPin } from 'lucide-react'
+import ScrollReveal from './ScrollReveal'
 import experienceData from '../data/experience.json'
 
 function ExperienceCard({ position, index }) {
   const { title, company, period, location, highlights } = position
 
   return (
-    <article 
-      className="glass rounded-xl p-6 card-hover animate-slide-up"
-      style={{ animationDelay: `${index * 150}ms` }}
-    >
+    <ScrollReveal delay={index * 150}>
+      <article className="glass rounded-xl p-6 card-hover">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
         <div>
@@ -39,7 +38,8 @@ function ExperienceCard({ position, index }) {
           </li>
         ))}
       </ul>
-    </article>
+      </article>
+    </ScrollReveal>
   )
 }
 
@@ -47,17 +47,19 @@ function Experience() {
   const { positions } = experienceData
 
   return (
-    <section className="py-20 px-4">
+    <section id="experience" className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Section header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Work <span className="text-gradient">Experience</span>
-          </h2>
-          <p className="text-text-secondary max-w-2xl mx-auto">
-            Building data solutions for government ministries and global enterprises
-          </p>
-        </div>
+        <ScrollReveal>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Work <span className="text-gradient">Experience</span>
+            </h2>
+            <p className="text-text-secondary max-w-2xl mx-auto">
+              Building data solutions for government ministries and global enterprises
+            </p>
+          </div>
+        </ScrollReveal>
 
         {/* Experience cards */}
         <div className="space-y-6">

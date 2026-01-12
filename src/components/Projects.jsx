@@ -1,4 +1,5 @@
 import { ExternalLink, Github, FileText } from 'lucide-react'
+import ScrollReveal from './ScrollReveal'
 import projectsData from '../data/projects.json'
 
 function ProjectCard({ project, index }) {
@@ -7,10 +8,8 @@ function ProjectCard({ project, index }) {
   const hasLinks = links && (links.repo || links.paper || links.live)
 
   return (
-    <article 
-      className="glass rounded-xl p-6 card-hover animate-slide-up"
-      style={{ animationDelay: `${index * 100}ms` }}
-    >
+    <ScrollReveal delay={index * 100}>
+      <article className="glass rounded-xl p-6 card-hover h-full flex flex-col">
       {/* Header */}
       <div className="mb-4">
         <h3 className="text-xl font-bold text-text-primary mb-1">{title}</h3>
@@ -41,7 +40,7 @@ function ProjectCard({ project, index }) {
       </ul>
 
       {/* Tags & Links */}
-      <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-border">
+      <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-border mt-auto">
         <div className="flex flex-wrap gap-2">
           {tags.map((tag) => (
             <span 
@@ -91,7 +90,8 @@ function ProjectCard({ project, index }) {
           </div>
         )}
       </div>
-    </article>
+      </article>
+    </ScrollReveal>
   )
 }
 
@@ -99,17 +99,19 @@ function Projects() {
   const { featured } = projectsData
 
   return (
-    <section className="py-20 px-4 bg-surface/30">
+    <section id="projects" className="py-20 px-4 bg-surface/30">
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Featured <span className="text-gradient">Projects</span>
-          </h2>
-          <p className="text-text-secondary max-w-2xl mx-auto">
-            From government-scale data systems to AI-powered automation
-          </p>
-        </div>
+        <ScrollReveal>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Featured <span className="text-gradient">Projects</span>
+            </h2>
+            <p className="text-text-secondary max-w-2xl mx-auto">
+              From government-scale data systems to AI-powered automation
+            </p>
+          </div>
+        </ScrollReveal>
 
         {/* Projects grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

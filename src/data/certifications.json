@@ -9,6 +9,14 @@
       "verifyUrl": "https://www.udacity.com/certificate/e/73bebc4a-2e51-11f0-b630-23d2dd864ab5"
     },
     {
+      "name": "CDMP® - Certified Data Management Professional Certification ",
+      "type": "Certification",
+      "issuer": "DAMA international",
+      "year": "2026",
+      "description": "Data Governance, Data Quality, Metadata Management, Data Architecture",
+      "verifyUrl": "https://certificates.cdmp.info/c68d38e4-dab2-4f12-a3e1-08219b31db68#acc.syISTxu7"
+    },
+    {
       "name": "PCAD™ Certified Associate Data Analyst",
       "type": "Certification",
       "issuer": "openEDG",
